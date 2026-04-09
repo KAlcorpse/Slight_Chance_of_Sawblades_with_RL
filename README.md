@@ -100,9 +100,9 @@ python gameplay.py
 Runs the trained best_model.zip.
 
 ## 🔧 Key Features
-Warm Start: Resume training automatically
-Early Stopping: Stops after 6 non-improving evaluations
-Anti-Camping: Penalizes corner-hugging
+- **Warm Start**: Resume training automatically
+- **Early Stopping**: Stops after 6 non-improving evaluations
+- **Anti-Camping**: Penalizes corner-hugging
 
 
 
