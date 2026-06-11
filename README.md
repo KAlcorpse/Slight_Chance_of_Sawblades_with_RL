@@ -1,17 +1,17 @@
-# 🎮 A Slight Chance of Sawblades (RL Edition)
+# A Slight Chance of Sawblades (RL Edition)
 
 An AI-driven project using **Proximal Policy Optimization (PPO)** to train an agent in a fast-paced bullet-hell arena. The agent learns to dodge sawblades, collect coins, and eliminate threats through reinforcement learning.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 This project builds a custom **Pygame environment** wrapped with a **Gymnasium interface**, enabling RL training using Stable-Baselines3.
 
 **Goal:** Maximize survival time and score in a constrained 400×600 arena.
 
 ---
 
-## 🕹️ Game Mechanics
+## Game Mechanics
 
 - **Survival:** Small continuous reward per frame alive  
 - **Coins:**  
@@ -25,7 +25,7 @@ This project builds a custom **Pygame environment** wrapped with a **Gymnasium i
 
 ---
 
-## 👁️ Observation Space
+## Observation Space
 
 The agent receives a **19-dimensional normalized vector**:
 
@@ -40,7 +40,7 @@ The agent receives a **19-dimensional normalized vector**:
 
 ---
 
-## 🎯 Action Space
+## Action Space
 
 Discrete (6 actions):
 
@@ -58,7 +58,7 @@ Discrete (6 actions):
 ![AI Agent Gameplay](gif/ai_playing.gif)
 Note : It's bad right now, should train more to make it more good
 
-## 🧠 Reward Function
+## Reward Function
 
 Total reward:
 
@@ -70,7 +70,7 @@ R_shaping = (1 - distance_to_coin / WIDTH) * 0.01
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone <your-repo-link>
@@ -78,14 +78,14 @@ cd sawblade
 pip install gymnasium stable-baselines3 pygame numpy shimmy
 ```
 
-## 🏋️ Training
+## Training
 
 Run the training script:
 
 ```bash
 python PPO_agent.py
 ```
-## 📊 Monitoring
+## Monitoring
 
 ```bash
 tensorboard --logdir ./sawblade_logs/
@@ -95,14 +95,14 @@ ep_rew_mean
 value_loss
 policy_loss
 
-## 🎥 Inference
+## Inference
 ```bash
 python gameplay.py
 
 ```
 Runs the trained best_model.zip.
 
-## 🔧 Key Features
+## Key Features
 - **Warm Start**: Resume training automatically
 - **Early Stopping**: Stops after 6 non-improving evaluations
 - **Anti-Camping**: Penalizes corner-hugging
