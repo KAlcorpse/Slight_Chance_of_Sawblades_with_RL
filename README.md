@@ -55,6 +55,8 @@ Discrete (6 actions):
 
 ---
 
+![AI Agent Gameplay](gif/ai_playing.gif)
+
 ## 🧠 Reward Function
 
 Total reward:
