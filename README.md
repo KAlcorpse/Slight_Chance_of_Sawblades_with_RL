@@ -54,8 +54,9 @@ Discrete (6 actions):
 | 5 | Jump Right |
 
 ---
-
+## AI AGENT GAMEPLAY
 ![AI Agent Gameplay](gif/ai_playing.gif)
+Note : It's bad right now, should train more to make it more good
 
 ## 🧠 Reward Function
 
