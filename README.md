@@ -1,5 +1,7 @@
 # A Slight Chance of Sawblades (RL Edition)
-Kalyan S, ED23B051
+**Author:** Kalyan S  
+**Roll Number:** ED23B051  
+
 
 An AI-driven project using **Proximal Policy Optimization (PPO)** to train an agent in a fast-paced bullet-hell arena. The agent learns to dodge sawblades, collect coins, and eliminate threats through reinforcement learning.
 
